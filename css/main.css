@@ -131,16 +131,18 @@ transition-delay:.2s;
     background-color: #FF9F1C;
     color: #FDFFFC;
 }
-
+#email{
+    color:#FDFFFC;
+}
 #email:hover{
     text-decoration: none;
-    color: #FDFFFC;
+    color: #2B2D42;
 }
 
 .btn-change{
     height: 50px;
     width: 200px;
-    background: #FDFFFC;
+    background: #ED6A5A;
     -webkit-transition: all 0.5s ease-in-out;
     border: 0px;
     border-radius: 10px;
@@ -149,5 +151,10 @@ transition-delay:.2s;
 }
 .btn-change:hover{
     -webkit-transform: scale(1.1);
-    background: #E63946;
+    color: #2B2D42;
+    background: #FDFFFC;
+}
+
+.icon-github:before {
+  content: "\eab0";
 }
